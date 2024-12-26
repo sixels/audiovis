@@ -51,7 +51,7 @@ function draw() {
   rotateX(PI / 3);
 
   if (audioSample.isPlaying()) {
-    zRotation = (zRotation + 0.007) % (2 * PI);
+    zRotation = (zRotation + 0.002) % (2 * PI);
     hueRotation = (hueRotation + 0.05) % 360;
   }
   rotateZ(zRotation);
